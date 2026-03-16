@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("Ggsk_g5DIEDMb9CHha9DNXYivWGdyb3FYAQs3OzrXxczrl87yoV0XEPFI"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Web Search
 def search_web(query):
